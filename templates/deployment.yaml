@@ -59,15 +59,4 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
-      {{- if .Values.probes.enabled }}
-            livenessProbe:
-              httpGet:
-                path: /health
-                port: http
-              initialDelaySeconds: 15
-            readinessProbe:
-              httpGet:
-                path: /health
-                port: http
-              initialDelaySeconds: 15
-{{- end }}
+
