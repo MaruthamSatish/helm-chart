@@ -40,6 +40,13 @@ service:
   type: NordPort
   port: 9595
 
+readinessProbe:
+            httpGet:
+              path: /
+              port: 9595
+            initialDelaySeconds: 15
+            periodSeconds: 15
+
 ingress:
   enabled: false
   annotations: {}
