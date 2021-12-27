@@ -1,5 +1,5 @@
 apiVersion: v2
 name: easytobuy
-description: A Helm chart for Kubernetes
-version: 0.2.1
+description: Helm Chart for Easy To Buy
+version: 0.2.2
 appVersion: "1.16.0"
