@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: satishlakshmiudemy/easy-to-buy-ui
   pullPolicy: Always
-  tag: "latest"
+  tag: "v1"
 
 imagePullSecrets: []
 nameOverride: ""
