@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: satishlakshmiudemy/category-api
+  repository: satishlakshmireddy/easy_to_buy_front_end
   pullPolicy: Always
   tag: "latest"
 
