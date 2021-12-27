@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: satishlakshmireddy/easy_to_buy_front_end
+  repository: satishlakshmiudemy/easy-to-buy-ui
   pullPolicy: Always
   tag: "latest"
 
