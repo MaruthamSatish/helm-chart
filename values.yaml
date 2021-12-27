@@ -3,11 +3,9 @@ replicaCount: 1
 image:
   repository: satishlakshmiudemy/easy-to-buy-ui
   pullPolicy: Always
-  tag: "v1"
+  tag: "v2"
 
-imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
+
 
 livenessProbe:
   failureThreshold: 4
