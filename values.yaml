@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: satishlakshmiudemy/easy_to_buy_angular
   pullPolicy: Always
-  tag: "v1.0"
+  tag: "v1.1"
 
 
 
